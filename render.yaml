@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: healthcare-dashboard
+    env: node
+    buildCommand: ./build.sh
+    startCommand: serve -s build
+    staticPublishPath: ./build
