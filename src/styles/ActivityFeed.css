@@ -1,0 +1,126 @@
+.activity-feed {
+  background-color: rgb(247, 250, 255);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.activity-header h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+
+
+.appointments-count {
+  font-size: 14px;
+  color: #666;
+}
+
+.activity-graph {
+  width: 100%;
+
+}
+
+.graph-bars {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.day-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.bar-group {
+  display: flex;
+  align-items: flex-end;
+  gap: 17px;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.bar {
+  width: 5px;
+  border-radius: 2px;
+  position: relative;
+
+}
+
+.bar.primary {
+  background-color: #bdbdbd;
+  height:100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar.primary .bar-segment {
+  width: 100%;
+  height: 50%;
+}
+
+.bar.primary .bar-segment.left {
+  background-color: rgb(103, 222, 238);
+  border-radius: 2px 2px 0 0;
+}
+
+.bar.primary .bar-segment.right {
+  background-color: rgb(55, 53, 160);
+  border-radius: 0 0 2px 2px;
+}
+
+.bar.secondary {
+  background-color: rgb(103, 222, 238);
+  height: 60px;
+  bottom: 20px;
+}
+
+.bar.tertiary {
+  background-color: transparent;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  bottom: 10px;
+}
+
+.bar.tertiary .bar-segment {
+  width: 100%;
+  height: 50%;
+}
+
+.bar.tertiary .bar-segment.left {
+  background-color: rgb(103, 222, 238);
+  border-radius: 2px 2px 2px 2px;
+}
+
+.bar.tertiary .bar-segment.right {
+  background-color: rgb(55, 53, 160);
+  border-radius: 2px 2px 2px 2px;
+}
+
+.bar.fourth {
+  background-color: #bdbdbd;
+  height: 30px;
+}
+
+.day-label {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  width: 100%;
+}

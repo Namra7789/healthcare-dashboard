@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 250, 255);
+    height: 80px;
+    position: relative;
+    z-index: 5;
+}
+  
+.header-left {
+    width: 220px; 
+    padding-left: 30px;
+    background-color: rgb(247, 250, 255);
+}
+
+
+.header-left h1 {
+    font-size: 24px;
+    display: flex;
+    margin: 0;
+}
+
+.health-text {
+    color: rgb(103, 222, 238);
+}
+
+.care-text {
+    color: rgb(55, 53, 160);
+}
+
+.header-center {
+    margin-top: 10px;
+    background-color: black;
+    align-content: start;
+}
+.header-search {
+    flex: 1;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-right {
+    width: 600px;
+    background-color: rgb(247, 250, 255);
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 30px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(103, 222, 238);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+  
+  
+.add-button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  

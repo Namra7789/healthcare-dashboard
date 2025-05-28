@@ -1,0 +1,49 @@
+.appointment-cards {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .appointment-card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .appointment-card.dentist {
+    background-color: rgb(55, 53, 160);
+  }
+
+  .appointment-card.dentist span{
+    color: white;
+  }
+
+  .appointment-card.dentist .doctor{
+    color: white;
+  }
+
+  
+  .appointment-card.physio {
+    background-color: rgb(222, 226, 247);
+    color: rgb(55, 53, 160);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .time {
+    font-size: 12px;
+    color: rgb(55, 53, 160);
+  }
+  
+  
+  
+  .doctor {
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
